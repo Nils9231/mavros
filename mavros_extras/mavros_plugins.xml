@@ -47,4 +47,19 @@
 	<class name="vision_speed_estimate" type="mavros::extra_plugins::VisionSpeedEstimatePlugin" base_class_type="mavros::plugin::PluginBase">
 		<description>Send vision speed estimate to FCU.</description>
 	</class>
+	<class name="UUV1_POS" type="mavros::extra_plugins::UUV1PosePlugin" base_class_type="mavros::plugin::PluginBase">
+     <description>Sends UUV1 Position </description>
+ 	</class>
+	<class name="UUV2_POS" type="mavros::extra_plugins::UUV2PosePlugin" base_class_type="mavros::plugin::PluginBase">
+     <description>Sends UUV2 Position </description>
+ 	</class>
+	<class name="UUV3_POS" type="mavros::extra_plugins::UUV3PosePlugin" base_class_type="mavros::plugin::PluginBase">
+     <description>Sends UUV3 Position </description>
+ 	</class>
+	<class name="UUV4_POS" type="mavros::extra_plugins::UUV4PosePlugin" base_class_type="mavros::plugin::PluginBase">
+     <description>Sends UUV4 Position </description>
+ 	</class>
+	<class name="UUV5_POS" type="mavros::extra_plugins::UUV5PosePlugin" base_class_type="mavros::plugin::PluginBase">
+     <description>Sends UUV5 Position </description>
+ 	</class>
 </library>
